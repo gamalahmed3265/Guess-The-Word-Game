@@ -93,7 +93,7 @@ function handleGuesses() {
     if (letter === actualLetter) {
       // Letter Is Correct And In Place
       inputField.classList.add("yes-in-place");
-    } else if (wordToGuess.includes(letter) &#038;&#038; letter !== "") {
+    } else if (wordToGuess.includes(letter) && letter !== "") {
       // Letter Is Correct And Not In Place
       inputField.classList.add("not-in-place");
       successGuess = false;
